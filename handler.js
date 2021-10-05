@@ -107,6 +107,11 @@ module.exports = {
       if (m.isBaileys) return
       m.exp += Math.ceil(Math.random() * 10)
 
+      //ONLINE
+    await conn.updatePresence(m.chat, Presence.available)
+      //FAKE MENGETIK
+    await conn.updatePresence(m.chat, Presence.composing)
+  
       let usedPrefix
       let _user = global.db.data && global.db.data.users && global.db.data.users[m.sender]
 
