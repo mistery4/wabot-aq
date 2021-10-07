@@ -1,4 +1,5 @@
 let util = require('util')
+let fetch = require('node-fetch')
 let simple = require('./lib/simple')
 let { MessageType, Presence } = require('@adiwajshing/baileys')
 const Canvas = require("discord-canvas")
