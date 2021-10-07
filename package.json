@@ -53,6 +53,7 @@
     "jsdom": "^16.6.0",
     "lodash": "^4.17.21",
     "lowdb": "^2.1.0",
+    "moment": "^2.29.1",
     "node-fetch": "^2.6.1",
     "node-gtts": "^2.0.2",
     "node-webpmux": "^3.1.0",
