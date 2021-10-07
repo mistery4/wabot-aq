@@ -378,7 +378,7 @@ module.exports = {
                      .setBackground("https://cdn.wallpapersafari.com/38/89/pZxtn4.jpg")
                      .toAttachment();
 
-              this.sendFile(jid, action === 'add' ? wel : lea, 'pp.jpg', text, null, false, {
+              this.sendFile(jid, action === 'add' ? wel.toBuffer() : lea.toBuffer(), 'pp.jpg', text, null, false, {
                 thumbnail: await (await fetch(action === 'add' ? wel : lea)).buffer(),
                 contextInfo: {
                   mentionedJid: [user]
