@@ -1,6 +1,6 @@
 let util = require('util')
 let simple = require('./lib/simple')
-let { MessageType } = require('@adiwajshing/baileys')
+let { MessageType, Presence } = require('@adiwajshing/baileys')
 const Canvas = require("discord-canvas")
 
 const isNumber = x => typeof x === 'number' && !isNaN(x)
