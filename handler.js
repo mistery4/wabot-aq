@@ -361,7 +361,7 @@ module.exports = {
                      .setBackground("https://cdn.wallpapersafari.com/38/89/pZxtn4.jpg")
                      .toAttachment();
               //let lea = `https://api-yogipw.herokuapp.com/api/goodbye3?name=${encodeURIComponent(this.getName(user))}&mem=${encodeURIComponent(groupMetadata.participants.length)}&msg=BYE%20BYE%20TOD&picurl=${pp}&bgurl=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzOJUTDbRcqjR1ab1WFWTT1rhQFiJI47n_HA&usqp=CAU`
-              let wel = await new Canvas.Goodbye()
+              let lea = await new Canvas.Goodbye()
                      .setUsername(this.getName(user))
                      .setDiscriminator("2021-2022")
                      .setMemberCount(groupMetadata.participants.length)
