@@ -2,6 +2,7 @@ let util = require('util')
 let fetch = require('node-fetch')
 let simple = require('./lib/simple')
 let { MessageType, Presence } = require('@adiwajshing/baileys')
+const uploadImage = require('./lib/uploadImage')
 const Canvas = require("discord-canvas")
 
 const isNumber = x => typeof x === 'number' && !isNaN(x)
